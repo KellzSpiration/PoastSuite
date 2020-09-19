@@ -37,9 +37,9 @@ namespace PoastSuite
           
             if (hookesandjeevesCheckbox.IsChecked)
             { 
-                neldermeadcheckbox.IsChecked = false;
-                DfpCheckbox.IsChecked = false;
-                flectherandreevescheckbox.IsChecked = false;
+                neldermeadcheckbox.Enabled = false;
+                DfpCheckbox.Enabled = false;
+                flectherandreevescheckbox.Enabled = false;
                 Navigation.PushAsync(new MainPage());
                 //Kaycee please change MainPage to your very first page for HJ
             }
